@@ -5,5 +5,3 @@ phases:
       - echo "Hello"
 artifacts:  
   type: zip
-  files:
-    - **/*
