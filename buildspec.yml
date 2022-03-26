@@ -1,4 +1,9 @@
 version: 0.3
 phases: 
   pre_build: 
-    echo "Hello"
+    commands:
+      - echo "Hello"
+artifacts:  
+  type: zip
+  files:
+    - **/*
